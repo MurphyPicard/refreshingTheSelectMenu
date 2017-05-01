@@ -7,15 +7,16 @@
     <script src="./app.js" charset="utf-8"></script>
   </head>
   <body ng-controller="bugCTRL">
+
     <p>5+5={{4+6}}</p>
-    <p>{{greeting}}</p>
+    <p>Choices: {{greetings}}</p>
 
+    <hr>
     <select class="" name="">
-      <option value="one"></option>
+      <option value="one">Stack Overflow, You're the Best!</option>
       <option value="two" ng-repeat="greeting in greetings">{{greeting}}</option>
-
     </select>
-
+    <hr>
 
   </body>
 </html>

@@ -4,6 +4,6 @@ angular
 
 function bugCTRL($scope){
 
-  $scope.greetings = ["hi", "hello", "you are soooo good looking"];
+  $scope.greetings = ["good morning", "good evening", "good night"];
 
 }
