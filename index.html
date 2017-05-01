@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="findTheBug">
+  <head>
+    <meta charset="utf-8">
+    <title>the refresh bug</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="./app.js" charset="utf-8"></script>
+  </head>
+  <body ng-controller="bugCTRL">
+    <p>5+5={{4+6}}</p>
+    <p>{{greeting}}</p>
+
+    <select class="" name="">
+      <option value="one"></option>
+      <option value="two" ng-repeat="greeting in greetings">{{greeting}}</option>
+
+    </select>
+
+  </body>
+</html>
